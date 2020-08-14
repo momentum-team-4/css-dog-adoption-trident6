@@ -13,32 +13,11 @@
     font-size: 16px;
     padding: 1rem;
   }
-  .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-  }
-  
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
+ 
   header,
   main {
     max-width: 45rem;
     margin: 0 auto;
-  }
-  
-  p {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .green {
-    color: green;
   }
   
   .page-header {
@@ -86,3 +65,44 @@
     margin-bottom: 1rem;
     font-family: Oswald;
   }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: spacebetween;
+    align-items: center;
+   }
+
+.block-1 {
+ flex:1 1 auto;
+}
+
+.block-2 {
+  flex: 1 1 auto;
+ }
+
+ .block-3 {
+  flex: 1 1 auto;
+ }
+
+
+
+  /* #.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  */
+  /* Clearfix (clear floats)
+  #.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   */
+
+   /* p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  */
